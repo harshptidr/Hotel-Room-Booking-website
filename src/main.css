@@ -1,0 +1,230 @@
+.backimg{
+
+    background-image: url("../public/images/hotel2.jpg");
+    width: 100%;
+    height: 790px;
+    background-repeat: no-repeat;
+    position: relative; 
+    background-size: cover;
+    margin-top: -25px;
+    overflow: hidden;
+    
+}
+@media (max-width:450px) {
+    .backimg{
+justify-content: center;
+
+        width: 100%;
+        height: 500px;
+        object-fit: contain;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+}
+.main{
+    overflow: hidden;
+}
+.text{
+    position: relative;
+    text-transform:uppercase ;
+    /* text-align: center; */
+    font-size: 50px;
+    /* top: 70%;
+    bottom: 70%; */
+    left: 3%;
+    text-shadow: 5px 5px 10px black;
+}
+.text :hover{
+    
+    font-size: 30px;
+    transition: font-size 0.2s;
+    
+}
+
+/* footer{
+    width:100%;
+    padding:30px 0 0 20px;
+    background-color: rgb(194, 234, 250);
+    box-shadow: 1px;
+    
+
+}
+.footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.footer_tag{
+    text-align: center;
+}
+.footer_tag h2{
+    color:black;
+    margin-bottom: 25px;
+    font-size: 30px;
+
+} */
+/* .footer_tag i{
+    margin: 0 5px;
+    cursor: pointer;
+} */
+/* .footer_tag i:hover{
+    color: goldenrod;
+} */
+/* .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.end d{
+    color: goldenrod;
+    margin-left: 10px;
+}  */
+.bt{
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color:  #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+   font-family: 'monospace';
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+content: '';
+position: absolute;
+left: 0;
+bottom: -10px;
+background-color: #e91e63;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10p;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:#ffffff ;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-link svg{
+    color: #ffffff;
+    margin-left: 8px;
+    /* border-radius: 80%; */
+    transition: all 0.3s ease;
+}
+.footer-col .social-link svg:hover{
+    /* color: #24262b; */
+    background-color:#24262b;
+    color: goldenrod;
+}
+.end{
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.end d{
+    color: goldenrod;
+    margin-left: 10px;
+} 
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+      
+        
+    }
+}
+.style:hover{
+border-top-color: rgb(248, 41, 0) !important;
+transform: scale(1.03);
+transition: all 0.3s;
+}
+.box:hover{
+    border-top-color: rgb(248, 41, 0) !important;
+}
+
+/* body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  } */
+
+  /* .swiper {
+    width: 100%;
+    height: 100%;
+  } */
+
+  /* .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+/* .card img{
+    transition: 0.1s ease;
+}
+.card:hover img{
+    transform: scale(0.9);
+} */
+.pic{
+    color: wheat;
+    margin-left: 3%;
+}
